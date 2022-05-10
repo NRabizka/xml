@@ -1,0 +1,36 @@
+XML
+1) Создать внешний репозиторий: Repositories--> new--> xml--> Creste repository
+2) Клонировать репозиторий XML на локальный компьютер: git clone https://github.com/NRabizka/xml.git
+3) Создать файл “new.xml”: vim new.xml --> git add new.xml --> git commit -m "create new.xml" -->git push
+4) Отредактировать содержание файла “new.xml”: vim new.xml
+	<xml>
+	<name>Nastassia</name>
+	<surname>Rabizo</surname>
+	<age>38</age>
+	<pet>cat Gera</pet>
+	<salary>400$</salary>
+5) Отправить изменения: git add new.xml
+			git commit -am "summary"
+			git push
+6) Создать файл preferences.xml --> vim preferences.xml
+<xml>
+        <Movie>"Illusion of deception"</Movie>,
+        <Series>"Outlander"</Series>,
+        <Favorite food>Pizza</Favorite food>,
+        <Season>Summer</Season>,
+        <Country>USA</Country>. 
+7) Создать файл sklls.xml --> vim sklls.xml
+<xml>
+        <s1>GitBash</s1>,
+        <s2>Function</s2>,
+        <s3>SQL</s3>,
+        <s4>HTTP</s4>,
+        <s5>Postman</s5>,
+        <s6>Android_Studio</s6>
+
+8) Сделать коммит в одну строку: git add .; git commit -m "text" --> git push
+9) Создать файл bug_report.xml: Add file --> Creat new file --> commit new file --> git pull
+10) Модифицировать файл bug_report.json -->добавить изменения --> Commit changes
+11) Синхронизировать: git add bug_report.xml
+                      git commit -am "Summary"
+                      git pull --> git push
