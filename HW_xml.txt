@@ -4,7 +4,7 @@ XML
 3) Создать файл “new.xml”: vim new.xml --> git add new.xml --> git commit -m "create new.xml" -->git push
 4) Отредактировать содержание файла “new.xml”: vim new.xml
 	<xml>
-	<name>Nastassia</name>
+	<name>Nastya</name>
 	<surname>Rabizo</surname>
 	<age>38</age>
 	<pet>cat Gera</pet>
