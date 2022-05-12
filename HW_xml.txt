@@ -4,7 +4,7 @@ XML
 3) Создать файл “new.xml”: vim new.xml --> git add new.xml --> git commit -m "create new.xml" -->git push
 4) Отредактировать содержание файла “new.xml”: vim new.xml
 	<xml>
-	<name>Nastya</name>
+	<name>Nastassia</name>
 	<surname>Rabizo</surname>
 	<age>38</age>
 	<pet>cat Gera</pet>
@@ -33,4 +33,4 @@ XML
 10) Модифицировать файл bug_report.json -->добавить изменения --> Commit changes
 11) Синхронизировать: git add bug_report.xml
                       git commit -am "Summary"
-                      git pull --> git push
+                      git pull
