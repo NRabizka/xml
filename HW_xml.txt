@@ -30,7 +30,7 @@ XML
 
 8) Сделать коммит в одну строку: git add .; git commit -m "text" --> git push
 9) Создать файл bug_report.xml: Add file --> Creat new file --> commit new file --> git pull
-10) Модифицировать файл bug_report.json -->добавить изменения --> Commit changes
+10) Модифицировать файл bug_report.xml -->добавить изменения --> Commit changes
 11) Синхронизировать: git add bug_report.xml
                       git commit -am "Summary"
                       git pull --> git push
