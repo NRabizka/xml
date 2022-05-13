@@ -28,13 +28,21 @@ XML
         <s5>Postman</s5>,
         <s6>Android_Studio</s6>
 
+<<<<<<< HEAD
 8) Сделать коммит в одну строку: git add .|git commit -m "changes" |git push
+=======
+8) Сделать коммит в одну строку: git add HW_xml.txt |git commit -m "changes" |git push
+>>>>>>> 095b8cb1adc265a65006013f24a26936188646bd
 9) Создать файл bug_report.xml: Add file --> Creat new file --> commit new file --> git pull
 10) Модифицировать файл bug_report.xml -->добавить изменения --> Commit changes
 11) Синхронизировать: git add bug_report.xml
                       git commit -am "Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
                       git pull
 =======
                       git pull --> git push
 >>>>>>> c81897a7d887b392ff4e337f5d525b4f7cf3a2d8
+=======
+                      git pull
+>>>>>>> 095b8cb1adc265a65006013f24a26936188646bd
